@@ -33,5 +33,5 @@ import java.lang.annotation.Target;
                         })
                 }))
 })
-public @interface PriceApiInfo {
+public @interface AccountApiInfo {
 }

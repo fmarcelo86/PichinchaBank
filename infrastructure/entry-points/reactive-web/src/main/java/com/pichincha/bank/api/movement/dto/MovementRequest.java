@@ -5,7 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Positive;
 import java.util.Date;
 
 @Data
@@ -21,7 +23,6 @@ public class MovementRequest {
     @Pattern(regexp = "Ahorro|Corriente")
     private String type;
     @NotNull
-    @DecimalMin("1")
     private Double amount;
     @NotNull
     private Boolean status;

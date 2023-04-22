@@ -1,10 +1,8 @@
 package com.pichincha.bank.model.customer;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
+@EqualsAndHashCode(callSuper=false)
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor

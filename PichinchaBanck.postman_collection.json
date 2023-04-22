@@ -531,7 +531,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"accountNumber\": \"1526398\",\r\n    \"type\": \"Corriente\",\r\n    \"amount\": 50,\r\n    \"status\": true\r\n}",
+							"raw": "{\r\n    \"accountNumber\": \"1526398\",\r\n    \"type\": \"Corriente\",\r\n    \"amount\": 0,\r\n    \"status\": true\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -560,7 +560,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"accountNumber\": \"478758\",\r\n    \"type\": \"Ahorro\",\r\n    \"amount\": 2000,\r\n    \"status\": true\r\n}",
+									"raw": "{\r\n    \"accountNumber\": \"478758\",\r\n    \"type\": \"Ahorro\",\r\n    \"amount\": -575,\r\n    \"status\": true\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -593,7 +593,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"accountNumber\": \"225487\",\r\n    \"type\": \"Corriente\",\r\n    \"amount\": 100,\r\n    \"status\": true\r\n}",
+									"raw": "{\r\n    \"accountNumber\": \"225487\",\r\n    \"type\": \"Corriente\",\r\n    \"amount\": 600,\r\n    \"status\": true\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -626,7 +626,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"accountNumber\": \"495878\",\r\n    \"type\": \"Ahorro\",\r\n    \"amount\": 0,\r\n    \"status\": true\r\n}",
+									"raw": "{\r\n    \"accountNumber\": \"495878\",\r\n    \"type\": \"Ahorro\",\r\n    \"amount\": 150,\r\n    \"status\": true\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -659,7 +659,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"accountNumber\": \"496825\",\r\n    \"type\": \"Ahorro\",\r\n    \"amount\": 540,\r\n    \"status\": true\r\n}",
+									"raw": "{\r\n    \"accountNumber\": \"496825\",\r\n    \"type\": \"Ahorro\",\r\n    \"amount\": -540,\r\n    \"status\": true\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"

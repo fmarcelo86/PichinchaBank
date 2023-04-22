@@ -10,7 +10,8 @@ public enum BusinessErrorMessage {
     CLIENT_NOT_FOUND("PBB0001", "Client not found"),
     BAD_REQUEST_BODY("PBB0002", "Error in body request"),
     ACCOUNT_NOT_FOUND("PBB0003", "Account number not found"),
-    BALANCE_NOT_AVAILABLE("PBB0004", "Saldo no disponible");
+    AMOUNT_INVALID("PBB0004", "Amount invalid"),
+    BALANCE_NOT_AVAILABLE("PBB0005", "Saldo no disponible");
 
     private final String code;
     private final String message;

@@ -1,9 +1,6 @@
 package com.pichincha.bank.jpa.customer.data;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,6 +9,7 @@ import javax.persistence.Id;
 
 
 @Data
+@EqualsAndHashCode(callSuper=false)
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor

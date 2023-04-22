@@ -11,7 +11,7 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 @Configuration
 public class AccountRouterRest {
 @Bean
-@PriceApiInfo
+@AccountApiInfo
 public RouterFunction<ServerResponse> accountRouterFunction(AccountHandler handler) {
     return route(GET("/api/v1/account"), request -> handler.getAll())
             .andRoute(POST("/api/v1/account"), handler::save)
